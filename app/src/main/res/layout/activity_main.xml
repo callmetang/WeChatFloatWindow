@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.floats.demo.acts.MainActivity">
+
+    <Button
+        android:onClick="click"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打开聊天界面"  />
+    <Button
+        android:onClick="clickOther"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打开其他界面"  />
+    <Button
+        android:visibility="gone"
+        android:onClick="floatClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="浮窗"  />
+
+</LinearLayout>
